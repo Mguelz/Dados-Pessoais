@@ -10,7 +10,7 @@ public class DadosPessoais {
 
     public static void main(String[] args) {
             
-    // variavel
+    // variaveis
     String nome;
     int idade;
     double peso;
@@ -23,13 +23,13 @@ public class DadosPessoais {
     peso = Double.parseDouble(JOptionPane.showInputDialog(null, "Insira o seu peso: ", "Digite seu peso usando .(ponto) como divisor", JOptionPane.PLAIN_MESSAGE));        
     estado = JOptionPane.showInputDialog(null, "Insira o seu estado: ", "Digite o nome do estado que você esta atualmente", JOptionPane.PLAIN_MESSAGE);
     
-    // saida de dados
+    // saida de dados unitarios
     JOptionPane.showMessageDialog(null, "seu nome é: " + nome, "Saída de dados separados", JOptionPane.PLAIN_MESSAGE);
     JOptionPane.showMessageDialog(null, "sua idade é: " + idade, "Saída de dados separados", JOptionPane.PLAIN_MESSAGE);
     JOptionPane.showMessageDialog(null, "seu peso é: " + peso, "Saída de dados separados", JOptionPane.PLAIN_MESSAGE);
     JOptionPane.showMessageDialog(null, "seu estado é: " + estado, "Saída de dados separados", JOptionPane.PLAIN_MESSAGE);
     
-    // saida de dados separados
+    // saida de todos os dados juntos
     JOptionPane.showMessageDialog(null, "Nome: " + nome + " | Idade: " + idade + " | Peso: " + peso + " | Estado: " + estado, "Todos os dados juntos", JOptionPane.PLAIN_MESSAGE);
     
     
