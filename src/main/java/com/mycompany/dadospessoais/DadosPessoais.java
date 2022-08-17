@@ -30,7 +30,7 @@ public class DadosPessoais {
     JOptionPane.showMessageDialog(null, "seu estado é: " + estado, "Saída de dados separados", JOptionPane.PLAIN_MESSAGE);
     
     // saida de todos os dados juntos
-    JOptionPane.showMessageDialog(null, "Nome: " + nome + " | Idade: " + idade + " | Peso: " + peso + " | Estado: " + estado, "Todos os dados juntos", JOptionPane.PLAIN_MESSAGE);
+    JOptionPane.showMessageDialog(null, "Nome: " + nome + "\nIdade: " + idade + "\nPeso: " + peso + "\nEstado: " + estado, "Todos os dados juntos", JOptionPane.PLAIN_MESSAGE);
     
     
     }
